@@ -1,16 +1,13 @@
 ---
 title: "Visualisation de données avec {ggplot2}"
 author: "francois.guilhaumon@ird.fr"
-date: "`r Sys.Date()`"
+date: "2020-11-04"
 output:
   html_document:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-#devtools::load_all() "cette ligne n'est pas necessaire pour la construction a partir du make.R  
-```
+
 
 # Introduction
 
@@ -33,7 +30,8 @@ Packages used by the project. If cannot be added to `DESCRIPTION` with `usethis:
 
 2. add them  manually to `DESCRIPTION`
 
-```{r, eval = FALSE}
+
+```r
 # add needed packages
 usethis::use_package("dplyr")
 usethis::use_package("ggplot2")
@@ -46,7 +44,8 @@ usethis::use_package("drake")
 
 Create files needed by `drake`.
 
-```{r, eval = FALSE}
+
+```r
 usethis::use_r(name = "wrangle.R")
 usethis::use_r(name = "plots.R")
 usethis::use_r(name = "plan.R")
@@ -61,7 +60,8 @@ dir.create("output/text")
 
 Ignore `drake` files in `.gitignore` and `.Rbuilignore`.
 
-```{r, eval = FALSE}
+
+```r
 # ignore files
 usethis::use_build_ignore(".drake")
 usethis::use_build_ignore("_drake.R")

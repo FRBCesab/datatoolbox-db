@@ -37,4 +37,8 @@ drake::r_make()
 drake::r_vis_drake_graph(targets_only = TRUE)
 drake::r_vis_drake_graph()
 
+# ----- Knit exo drake
+rmarkdown::render(input      = here::here("exercices","exo_drake.Rmd"),
+                  output_dir = here::here("output", "text")
+)
 
