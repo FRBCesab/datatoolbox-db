@@ -9,7 +9,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-devtools::load_all()
+#devtools::load_all() "cette ligne n'est pas necessaire pour la construction a partir du make.R
 ```
 
 # Introduction

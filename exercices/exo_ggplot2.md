@@ -35,7 +35,7 @@ dat <- datatoolboxexos::data_pantheria_tidy()
 
 ```
 ## 
-## ── Column specification ────────────────────────────────────────────────────────
+## ── Column specification ─────────────────────────────────────────────────────────────────────────────────────
 ## cols(
 ##   .default = col_double(),
 ##   MSW05_Order = col_character(),
@@ -45,7 +45,7 @@ dat <- datatoolboxexos::data_pantheria_tidy()
 ##   MSW05_Binomial = col_character(),
 ##   References = col_character()
 ## )
-## ℹ Use `spec()` for the full column specifications.
+## [36mℹ[39m Use `spec()` for the full column specifications.
 ```
 
 We have 153 families and 29 orders, they gather variable number of species :
@@ -143,7 +143,7 @@ dat %>%
   ggplot2::ggtitle("Number of entries per family") # add title
 ```
 
-![](exo_ggplot2_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](exo_ggplot2_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
 
 ## Graph 2: Scatter plot of litter size as a function of longevity
 
@@ -184,5 +184,5 @@ dat %>%
 ## `geom_smooth()` using formula 'y ~ x'
 ```
 
-![](exo_ggplot2_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
+![](exo_ggplot2_files/figure-html/unnamed-chunk-23-1.png)<!-- -->
 
