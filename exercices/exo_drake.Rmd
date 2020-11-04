@@ -1,0 +1,29 @@
+---
+title: "Visualisation de données avec {ggplot2}"
+author: "francois.guilhaumon@ird.fr"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#devtools::load_all() "cette ligne n'est pas necessaire pour la construction a partir du make.R  
+```
+
+# Introduction
+
+Dans cet exercice nous allons utiliser le package `ggplot2` pour visualiser des données.
+
+# Données
+
+On utilise la base de donnée :
+
+- **PanTHERIA** [:globe_with_meridians:](https://esajournals.onlinelibrary.wiley.com/doi/10.1890/08-1494.1)
+
+La base de données PanTHERIA recense un très grand nombre de traits d'histoire de vie, traits écologiques et géographiques pour les espèces de mammifères du monde entier.
+Le fichier texte contenant cette base de données se trouve dans `data/pantheria-traits/PanTHERIA_1-0_WR05_Aug2008.txt`
+
+# Analyses
+

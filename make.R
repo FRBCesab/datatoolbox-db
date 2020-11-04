@@ -16,10 +16,14 @@ devtools::install(build = FALSE) #cette ligne est necesaire aux
 #devtools::load_all() #cette ligne est à utiliser en cours de développement
 
 # ----- Knit exo dplyr
-rmarkdown::render(here::here("exercices","exo_dplyr.Rmd"))
+rmarkdown::render(input      = here::here("exercices","exo_dplyr.Rmd"),
+                  output_dir = here::here("output", "text")
+                  )
 
 # ----- Knit exo ggplot2
-rmarkdown::render(here::here("exercices","exo_ggplot2.Rmd"))
+rmarkdown::render(here::here("exercices","exo_ggplot2.Rmd"),
+                  output_dir = here::here("output", "text")
+                  )
 
 # ----- Knit exo spatial
 #rmarkdown::render(here::here("exercices","exo_spatial.Rmd"))
