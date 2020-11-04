@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 # Please put your title here to include it in the file below.
-Title <- "CESAB datatoolbox workshop exercices"
+Title <- "CESAB datatoolbox Workshop exercices"
 ```
 
 # datatoolboxexos
