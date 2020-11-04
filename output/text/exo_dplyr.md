@@ -37,7 +37,7 @@ sp_eco <- datatoolboxexos::data_mammals_ecoregions()
 
 ```
 ## 
-## ── Column specification ────────────────────────────────────────────────────────
+## ── Column specification ────────────────────────────────────────────────────────────────────────────────────
 ## cols(
 ##   ecoregion_id = col_character(),
 ##   species_id = col_double()
@@ -55,4 +55,4 @@ hist(mam_per_eco,
 )
 ```
 
-![](exo_dplyr_files/figure-html/explo_histo-1.png)<!-- -->
+![](/home/franz/Bureau/datatoolboxexos/output/text/exo_dplyr_files/figure-html/explo_histo-1.png)<!-- -->
