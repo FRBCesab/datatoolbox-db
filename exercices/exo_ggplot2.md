@@ -187,7 +187,7 @@ dat %>%
   ggplot2::xlab("Longevity") + # add label for X axis
   ggplot2::ylab("Litter size") + # add label for Y axis
   ggplot2::ggtitle("Scatterplot") + # add title
-  ggplot2::facet_wrap(~ family, nrow = 3) # split in several panels,
+  ggplot2::facet_wrap(~ family, nrow = 3) # split in several panels, one for each family, remove scale = 'free' for same scale for all plots
 ```
 
 ```
@@ -195,10 +195,4 @@ dat %>%
 ```
 
 ![](exo_ggplot2_files/figure-html/unnamed-chunk-7-1.png)<!-- -->
-
-```r
-                                          # one for each family
-                                          # remove scale = 'free' for
-                                          # same scale for all plots
-```
 
