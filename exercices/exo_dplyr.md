@@ -1,7 +1,7 @@
 ---
 title: "Manipulation de données avec {dplyr}"
 author: "francois.guilhaumon@ird.fr"
-date: "2020-11-03"
+date: "2020-11-04"
 output:
   html_document:
     keep_md: yes
@@ -37,7 +37,7 @@ sp_eco <- datatoolboxexos::data_mammals_ecoregions()
 
 ```
 ## 
-## ── Column specification ──────────────────────────────────────────────────────────────────────────────
+## ── Column specification ────────────────────────────────────────────────────────
 ## cols(
 ##   ecoregion_id = col_character(),
 ##   species_id = col_double()
